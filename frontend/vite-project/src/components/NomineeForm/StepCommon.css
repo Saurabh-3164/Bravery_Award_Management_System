@@ -1,0 +1,23 @@
+.step-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  
+  .step-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .step-container button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  

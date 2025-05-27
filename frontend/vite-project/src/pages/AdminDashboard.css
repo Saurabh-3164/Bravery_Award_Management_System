@@ -1,0 +1,129 @@
+/* AdminDashboard.css */
+
+.admin-dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logout-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+.filter-container {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.nominee-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nominee-table th,
+.nominee-table td {
+  padding: 12px 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Set minimal width for the first three columns */
+.nominee-table th:nth-child(1),
+.nominee-table td:nth-child(1) {
+  width: 100px;
+}
+
+.nominee-table th:nth-child(2),
+.nominee-table td:nth-child(2) {
+  width: 100px;
+}
+
+.nominee-table th:nth-child(3),
+.nominee-table td:nth-child(3) {
+  width: 100px;
+}
+
+/* Set large width for AI Responses and Nominee Details */
+.nominee-table th:nth-child(5),
+.nominee-table td:nth-child(5) {
+  width: 300px;
+  max-width: 300px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.nominee-table th:nth-child(7),
+.nominee-table td:nth-child(7) {
+  width: 400px;
+  max-width: 400px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.approve-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.approve-btn:hover {
+  background-color: #218838;
+}
+
+.reject-btn {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reject-btn:hover {
+  background-color: #e0a800;
+}
+
+@media (max-width: 768px) {
+  .nominee-table th,
+  .nominee-table td {
+    font-size: 14px;
+  }
+
+  .nominee-table th:nth-child(5),
+  .nominee-table td:nth-child(5),
+  .nominee-table th:nth-child(7),
+  .nominee-table td:nth-child(7) {
+    width: auto;
+    max-width: none;
+  }
+}

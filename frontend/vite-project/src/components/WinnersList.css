@@ -1,0 +1,31 @@
+.winners-container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  font-family: Arial;
+}
+
+.winners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.winner-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.winner-card h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.story {
+  margin-top: 0.7rem;
+  font-style: italic;
+  color: #555;
+}

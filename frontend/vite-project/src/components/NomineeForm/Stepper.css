@@ -1,0 +1,31 @@
+.stepper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+.step {
+  text-align: center;
+  flex: 1;
+  min-width: 100px;
+  padding: 0.5rem;
+}
+.step .circle {
+  background: #0066cc;
+  color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step.active .circle {
+  background: #009933;
+}
+.step span {
+  display: block;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+}
