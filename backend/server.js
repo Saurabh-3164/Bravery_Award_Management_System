@@ -11,22 +11,7 @@ app.use(cors());
 app.use(express.json());
 app.use(bodyParser.json());
 
-// ✅ Routes
 
-// ✅ MySQL Config
-// const config = {
-//   user: "avnadmin",
-//   password: "AVNS_w1gOm5_xUtROhG6u6p-",
-//   port: 24510,
-//   host: "mysql-3784c01-bravery-award-8051.j.aivencloud.com",
-//   waitForConnections: true,
-//   connectionLimit: 10,
-//   queueLimit: 0,
-//   // ssl: {
-//   //   ca: fs.readFileSync('aiven-ca.pem'),
-//   //   rejectUnauthorized: true
-//   // }
-// };
 const config = {
   host: 'localhost',
   user: 'root',
