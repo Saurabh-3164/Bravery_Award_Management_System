@@ -97,7 +97,7 @@ DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=bravery_award
-OPENAI_API_KEY=your_openai_key
+GEMINI_KEY = GEMINI_KEY
 ```
 
 - Start the server:
@@ -142,4 +142,4 @@ MIT License
 
 ## 🔗 Repository
 
-[GitHub Repo → Bravery_Award_Management_System](https://github.com/your-username/Bravery_Award_Management_System)
+[GitHub Repo → Bravery_Award_Management_System](https://github.com/Saurabh-3164/Bravery_Award_Management_System.git)
